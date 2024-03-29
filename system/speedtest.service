@@ -1,0 +1,6 @@
+[Unit]
+Description=Speedtest Service
+
+[Service]
+Type=oneshot
+ExecStart=/srv/tachyon/scripts/speedtest.sh
